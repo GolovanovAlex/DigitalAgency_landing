@@ -208,6 +208,9 @@
     font-weight: 300;
     line-height: 1;
     margin-bottom: 24px;
+    &:hover {
+      text-decoration: underline;
+    }
     &--wider {
       line-height: 1.5;
     }

@@ -59,7 +59,6 @@ function build() {
       'app/favicon/**/*',
       'app/fonts/**/*',
       'app/js/main.min.js',
-      'app/js/wow.min.js',
       'app/*html',
       'app/humans.txt',
     ],
