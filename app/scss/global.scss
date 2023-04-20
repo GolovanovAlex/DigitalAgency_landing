@@ -32,23 +32,6 @@ body {
   padding: 0 10px;
   margin: 0 auto;
 }
-.background {
-  position: absolute;
-  z-index: -1;
-  width: 700px;
-  height: 700px;
-  border-radius: 50%;
-  background: rgba(142, 173, 213, 0.7);
-  filter: blur(153px);
-  &--header {
-    top: -45%;
-    left: -15%;
-  }
-  &--custome {
-    top: -50%;
-    right: -20%;
-  }
-}
 // ---- ---- Title ---- ---- //
 .title {
   &__h1 {
@@ -69,11 +52,30 @@ body {
 }
 // ---- ---- menu ---- ---- //
 .nav {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 46px 0;
+}
+.header .container {
+  position: relative;
+}
+.background {
+  position: absolute;
+  z-index: -1;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background: rgba(142, 173, 213, 0.7);
+  filter: blur(153px);
+  &--header {
+    top: -400%;
+    left: -35%;
+  }
+  &--custome {
+    top: -50%;
+    right: -20%;
+  }
 }
 .logo {
   &__link {
