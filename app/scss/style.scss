@@ -1,27 +1,170 @@
 // ---- ---- fonts ---- ---- //
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 // ---- ---- reset ---- ---- //
 @import 'normalize.scss';
 @import 'myreset.scss';
 @import 'base.scss';
 @import 'global.scss';
 
-// ---- ---- main ---- ---- //
 // ---- ---- header ---- ---- //
-
+.header {
+}
 // ---- ---- hero ---- ---- //
-
-// ---- ---- sound ---- ---- //
-
-// ---- ---- connected ---- ---- //
-
-// ---- ---- gear ---- ---- //
-
-// ---- ---- technology ---- ---- //
-
-// ---- ---- creators ---- ---- //
-
-// ---- ---- try ---- ---- //
-
+.hero {
+  padding-top: calc(97px - 46px);
+  margin-bottom: 157px;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+  }
+  &__title {
+    max-width: 540px;
+    margin-bottom: 24px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 525px;
+    margin-bottom: 39px;
+  }
+  &__btn {
+  }
+  &__img {
+  }
+  &__bg-img {
+  }
+}
+// ---- ---- social ---- ---- //
+.social {
+  &__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    color: $color_t_accent;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color_bglight;
+    border-radius: 8px;
+    padding: 19px 24px;
+    gap: 40px;
+  }
+  &__item {
+    line-height: 1;
+  }
+  &__img {
+    display: flex;
+  }
+  margin-bottom: 36px;
+}
+// ---- ---- branding ---- ---- //
+.branding {
+  padding-top: 100px;
+  margin-bottom: 36px;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    max-width: 440px;
+  }
+  &__title {
+    margin-bottom: 25px;
+  }
+  &__text {
+    max-width: 392px;
+    margin-bottom: 30px;
+  }
+  &__link {
+    cursor: pointer;
+  }
+}
+// ---- ---- custome ---- ---- //
+.custome {
+  padding-top: 100px;
+  margin-bottom: 36px;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    max-width: 440px;
+  }
+  &__title {
+    margin-bottom: 25px;
+  }
+  &__text {
+    max-width: 392px;
+    margin-bottom: 30px;
+  }
+  &__link {
+    cursor: pointer;
+  }
+}
+// ---- ---- client ---- ---- //
+.client {
+  padding-top: 100px;
+  text-align: center;
+  &__title-text {
+  }
+  &__title {
+  }
+  &__items {
+  }
+  &__item {
+  }
+  &__img-box {
+  }
+  &__img {
+  }
+  &__name {
+  }
+  &__text {
+  }
+}
+// ---- ---- contact ---- ---- //
+.contact {
+  &__box {
+  }
+  &__img {
+  }
+  &__bg-img {
+  }
+  &__info {
+  }
+  &__title {
+  }
+  &__text {
+  }
+  &__btn {
+  }
+}
+// ---- ---- footer ---- ---- //
+.footer {
+  &__box {
+  }
+  &__items-box {
+  }
+  &__title {
+  }
+  &__items {
+  }
+  &__item {
+  }
+  &__link {
+  }
+}
+.copy {
+}
 // ---- ---- media ---- ---- //
 @import 'media.scss';
