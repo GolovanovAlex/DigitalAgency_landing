@@ -7,8 +7,6 @@
 @import 'global.scss';
 
 // ---- ---- header ---- ---- //
-.header {
-}
 // ---- ---- hero ---- ---- //
 .hero {
   padding-top: calc(97px - 46px);
@@ -17,8 +15,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  &__info {
   }
   &__title {
     max-width: 540px;
@@ -30,12 +26,6 @@
     line-height: 28px;
     max-width: 525px;
     margin-bottom: 39px;
-  }
-  &__btn {
-  }
-  &__img {
-  }
-  &__bg-img {
   }
 }
 // ---- ---- social ---- ---- //
@@ -203,8 +193,6 @@
       margin-bottom: 40px;
     }
   }
-  &__items {
-  }
   &__item {
     font-weight: 300;
     line-height: 1;
@@ -217,8 +205,8 @@
 .copy {
   text-align: center;
   font-weight: 300;
-  margin-bottom: 18px;
   text-transform: none;
+  padding-bottom: 18px;
 }
 // ---- ---- media ---- ---- //
 @import 'media.scss';
