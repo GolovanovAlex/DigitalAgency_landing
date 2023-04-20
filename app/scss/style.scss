@@ -63,6 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
   }
   &__info {
     max-width: 440px;
@@ -75,6 +76,9 @@
     margin-bottom: 30px;
   }
   &__link {
+    img {
+      width: 23px;
+    }
     cursor: pointer;
   }
 }
@@ -87,6 +91,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
   }
   &__info {
     max-width: 440px;
@@ -99,6 +104,9 @@
     margin-bottom: 30px;
   }
   &__link {
+    img {
+      width: 23px;
+    }
     cursor: pointer;
   }
 }
@@ -162,6 +170,8 @@
     align-items: center;
     background-color: $color_bglight;
     border-radius: 20px;
+    padding: 10px;
+    gap: 20px;
   }
   &__info {
     max-width: 360px;

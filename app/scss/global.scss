@@ -16,6 +16,9 @@ body {
   text-transform: capitalize;
   color: $color_t_dark;
   background-color: $color_light;
+  img {
+    width: 100%;
+  }
 }
 .container {
   max-width: 1085px;
@@ -82,6 +85,36 @@ body {
     font-size: 18px;
     line-height: 28px;
     text-transform: lowercase;
+  }
+  &__btn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 24px;
+    height: 30px;
+    z-index: 10;
+    span {
+      transition: all 0.2s;
+      width: 20px;
+      height: 1px;
+      background-color: $color_t_dark;
+      & + span {
+      }
+    }
+  }
+}
+.menu__btn.menu__btn--active {
+  span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  span:nth-child(2) {
+    opacity: 0;
+  }
+  span:nth-child(3) {
+    transform: translateY(-10px) rotate(135deg);
   }
 }
 // ---- ---- btn ---- ---- //
